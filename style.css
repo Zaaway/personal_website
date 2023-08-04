@@ -1,26 +1,125 @@
 div {
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: white;
-    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
     font-size: 32px;
+    font-weight: bold;
 }
 
 nav {
-    background-color: white;
+    background-color: rgb(239, 59, 59);
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 10px;
-    padding-top: 100px;
-    height: 60vh;
+    padding: 50px;
+    border-radius: 60px;
 }
 
-.pages:hover {
-    color: blue;
+#pages1:hover {
+    color: black;
+    cursor: grab;
+}
+#pages2:hover {
+    color: black;
+    cursor: grab;
+}
+#pages3:hover {
+    color: black;
+    cursor: grab;
+}
+#pages4:hover {
+    color: black;
     cursor: grab;
 }
 
 a {
     text-decoration: none;
+}
+
+#abc {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#p {
+    color: black;
+    padding-right: 50px;
+    padding-left: 50px;
+    word-spacing: 5px;
+    line-height: 60px;
+}
+
+#image1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#gael {
+    width: 700px;
+}
+
+#academics {
+    color: black;
+    padding-right: 50px;
+    padding-left: 50px;
+    word-spacing: 5px;
+    line-height: 60px;
+}
+
+#ac {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#image2 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#extracurriculars {
+    color: black;
+    padding-right: 50px;
+    padding-left: 50px;
+    word-spacing: 5px;
+    line-height: 60px;
+}
+
+#ex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#image3 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#contact {
+    color: black;
+    word-spacing: 5px;
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#con {
+    margin-top: 150px;
+}
+
+#image4 {
+    display: flex;
+    justify-content: center;
+}
+
+#click {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
 }
